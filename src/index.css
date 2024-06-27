@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+img {
+  width: 100%;
+}
+
+
+*,
+::after,
+::before {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.active{
+ color: #F16331 ;
+ text-decoration: underline;
+}
+
+body {
+
+  line-height: 1.5;
+
+  color: black;
+  font-size: 0.875rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  letter-spacing: var(--spacing);
+  text-transform: capitalize;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+p {
+  margin-bottom: 1.2rem;
+  max-width: 35rem;
+}
+
+a {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+@media screen and (min-width:900px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
+
+  body {
+    font-size: 1rem;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    line-height: 1;
+  }
+}
+header{
+  height: 100dvh ;
+background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
+  url(/images/free-photo-of-view-of-the-milan-cathedral-in-milan-lombardy-italy.jpeg) center/cover no-repeat scroll;
+}
+
+.active{
+  /* background-color:rgb(56, 109, 255); */
+  text-decoration: none;
+  display: block;
+  /* text-align: center; */
+  /* width: 15vw; */
+}
